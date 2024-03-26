@@ -1,7 +1,4 @@
-import useCart from "../hooks/useCart"
-
 const Header = ({cart, removeFromCart, decreaseQuantity, increaseQuantity, clearCart, isEmpty, cartTotal}) => {
-
   return (
     <header className="py-5 header">
         <div className="container-xl">
